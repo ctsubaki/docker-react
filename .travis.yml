@@ -6,3 +6,6 @@ services:
 before_install:
   - docker build -t ctsubaki/docker-react -f Dockerfile.dev .
 
+script:
+  - docker run ctsubaki/docker-react npm run test -- --coverage
+
