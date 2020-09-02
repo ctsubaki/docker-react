@@ -9,7 +9,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           
-          I am Chad! 
+          I am Chad 2! 
         </p>
         <a
           className="App-link"
